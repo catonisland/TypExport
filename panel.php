@@ -1,7 +1,7 @@
 <?php
 $current_version = 0.9;
 
-$version = file_get_contents('http://upgrade.sinaapp.com/typecho/TypExport/version.php');
+$version = 0.9;
 $message = '';
 if ($version > $current_version) {
     $message = "此插件有新版本({$version}),当前版本({$current_version}),请到<a href='https://github.com/panxianhai/TypExport'><strong>这里</strong></a>下载更新";
